@@ -1503,9 +1503,9 @@ class _SPJScreenState extends State<SPJScreen> {
 // Model untuk satu baris personel di form
 class _PersonelEntry {
   String? idPegawai;
-  String namaPegawai;
+  String namaPegawai = '';
   final TextEditingController nominalCtrl;
-  String linkKwitansi;
+  String? linkKwitansi;
 
   _PersonelEntry({
     String nominal = '',
