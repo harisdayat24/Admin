@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "install": "git clone --depth 1 --branch 3.27.4 https://github.com/flutter/flutter.git || true",
-    "build": "export PATH=\"$PATH:$(pwd)/flutter/bin\" && flutter pub get && flutter build web --release"
+    "build": "export PATH=\"$PATH:$(pwd)/flutter/bin\" && flutter pub get && flutter build web --release --dart2js-optimization O1"
   }
 }
