@@ -48,7 +48,7 @@ dependencies:
   flutter_svg: ^2.0.10+1
   google_fonts: ^6.2.1
   carousel_slider: ^5.0.0
-  fl_chart: ^1.1.0
+  fl_chart: ^0.69.2
   vector_map: ^0.7.0
   syncfusion_flutter_maps: ^29.1.38
   syncfusion_flutter_calendar: ^29.1.38
