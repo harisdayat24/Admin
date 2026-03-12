@@ -1,4 +1,3 @@
-cat > package.json << 'EOF'
 {
   "name": "kerja-in",
   "version": "1.0.0",
@@ -7,4 +6,3 @@ cat > package.json << 'EOF'
     "build": "export PATH=\"$PATH:$(pwd)/flutter/bin\" && flutter pub get && flutter build web --release"
   }
 }
-EOF
