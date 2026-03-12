@@ -1,0 +1,10 @@
+cat > package.json << 'EOF'
+{
+  "name": "kerja-in",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "git clone --depth 1 --branch stable https://github.com/flutter/flutter.git || true",
+    "build": "export PATH=\"$PATH:$(pwd)/flutter/bin\" && flutter pub get && flutter build web --release"
+  }
+}
+EOF
